@@ -127,13 +127,16 @@ div.teste{
 
 footer{
     width: 100%;
-    margin: 30px auto;
-    text-align: center;
-    background: #ffffff;
+   background: #ffffff;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     
     .logo-footer{
         max-width: 12%;
-        margin: 50px 0 0 0;
     }
     
     p{

@@ -65,6 +65,29 @@ nav img.menu {
   display: none;
 }
 
+nav .dropdown {
+  display: none;
+  position: absolute;
+  top: 20vh;
+  text-align: center;
+  background: white;
+  width: 100%;
+  font-size: 3vw;
+}
+
+nav .dropdown ul {
+  display: block;
+}
+
+nav .dropdown ul li {
+  display: block;
+  padding: 5px;
+}
+
+nav .show-dropdown {
+  display: block;
+}
+
 nav.large {
   height: 20%;
 }
@@ -73,20 +96,7 @@ nav.small {
   height: 10%;
 }
 
-.scrolled {
-  height: 20px;
-  transition: 0.35s all ease;
-  background: black;
-}
-
-.dropdown {
-  display: none;
-}
-
 @media (max-width: 768px) {
-  nav {
-    height: 10%;
-  }
   nav img.logo-nav {
     width: 30%;
   }

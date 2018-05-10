@@ -15,3 +15,14 @@ jQuery('a').click(function(){
     }, 500);
     return false;
 }); 
+
+// Mostrar menu dropdown sem deslizar
+// function dropdown() {
+//     document.querySelector(".dropdown").classList.toggle("show-dropdown");
+// }
+
+// Mostrar menu dropdown deslizando
+$(".menu").click(function(){
+	$(".dropdown").slideToggle();
+});
+

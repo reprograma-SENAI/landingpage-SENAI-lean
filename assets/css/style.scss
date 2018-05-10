@@ -11,6 +11,7 @@ body{
 nav{
     width: 100%;
     margin: 0;
+    // height: 100%;
     // padding: 40px 0;
     // height: 20%;
     background: #ffffff;
@@ -22,9 +23,7 @@ nav{
     box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.3);
     transition: .7s all;
     position: fixed;
-    
-      
-    
+        
     img.logo-nav{
         width: 20%;
     }
@@ -69,7 +68,29 @@ nav{
         display: none;
     } 
 
-    
+    .dropdown{
+        display: none;
+        position: absolute;
+        top: 20vh;
+        text-align: center;
+        background: white;
+        width: 100%;
+        font-size: 3vw;
+        
+
+        ul {
+            display: block;
+
+            li{
+                display: block;
+                padding: 5px;
+            }
+        }
+    }
+
+    .show-dropdown {
+        display: block;
+    }
 }
 
 nav.large{
@@ -80,20 +101,9 @@ nav.small{
     height: 10%;
 }
 
-.scrolled{
-	height: 20px;
-    transition: 0.35s all ease;
-    background: black;
-}
 
-.dropdown{
-    display: none;
-}
-
-    @media  (max-width: 768px){
+    @media (max-width: 768px){
         nav{
-            height: 10%;
-
             img.logo-nav{
                 width: 30%;
             }
@@ -106,7 +116,7 @@ nav.small{
                 display: block;
                 width: 25px;
             }
-        }
+        }        
     }
 
 

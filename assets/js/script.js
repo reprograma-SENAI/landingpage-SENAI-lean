@@ -1,31 +1,17 @@
-// ScrpllTop para os links da barra de navegação
-// $( 'nav.a' ).on( 'click', function(e){
-	
-//     // Define variable of the clicked »a« element (»this«) and get its href value.
-//     var href = $(this).attr('href');
-    
-//     // Run a scroll animation to the position of the element which has the same id like the href value.
-//     $('html, body').animate({
-//           scrollTop: $('href').offset().top
-//     }, '300' );
-      
-//     // Prevent the browser from showing the attribute name of the clicked link in the address bar
-//     e.preventDefault();
-  
-//   });
+// Scroll resize navbar
+$(document).on("scroll", function() {
 
+	if($(document).scrollTop()>100) {
+		$("nav").removeClass("large").addClass("small");
+	} else {
+		$("nav").removeClass("small").addClass("large");
+	}
+});
 
-// Reduzir a height da barra de navegação a partir do primeiro scroll
-///Ainda testando
-
-
-
-// $(function(){
-//     $(window).scroll(function(){
-//         if($(window).scrollTop() >= 100 {
-//             $("navbar").addClass("scrolled");
-//       }else{
-//             $("navbar").removeClass("scrolled");
-//       }
-//     }
-// });
+// ScrollTop para os links da barra de navegação
+jQuery('a').click(function(){
+    jQuery('html, body').animate({
+        scrollTop: jQuery( jQuery(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+}); 

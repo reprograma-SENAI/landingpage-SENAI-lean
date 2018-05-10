@@ -8,6 +8,13 @@ body {
   color: #333333;
 }
 
+/* Resets personalizados */
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
 nav {
   width: 100%;
   margin: 0;
@@ -96,21 +103,52 @@ nav.small {
   height: 10%;
 }
 
-@media (max-width: 768px) {
-  nav img.logo-nav {
-    width: 30%;
-  }
-  nav ul {
-    display: none;
-  }
-  nav img.menu {
-    display: block;
-    width: 25px;
-  }
+section.quem-fez {
+  background-image: url("../img/background-large.png");
+  background-size: cover;
 }
 
-div.teste {
-  height: 1000px;
+section.quem-fez div.title-section {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-size: 1.2em;
+}
+
+section.quem-fez div.title-section h2 {
+  margin: 0 0 0 30px;
+  color: #0066CC;
+}
+
+section.quem-fez div.title-section p {
+  margin: 0 0 0 30px;
+}
+
+section.quem-fez div.equipe {
+  box-shadow: -1px 2px 15px 2px rgba(0, 0, 0, 0.75);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.quem-fez div.equipe div.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section.quem-fez div.equipe div.cards div {
+  width: 20%;
+  background-color: white;
+}
+
+section.quem-fez div.equipe div.cards div img {
+  width: 100%;
+}
+
+section.quem-fez div.equipe div.cards div p {
+  margin: 0 auto;
+  padding: 5px 0 60px;
 }
 
 footer {
@@ -131,5 +169,55 @@ footer p {
   margin: 0;
   font-weight: bold;
   font-size: 1.25vw;
+}
+
+@media (max-width: 768px) {
+  nav img.logo-nav {
+    width: 30%;
+  }
+  nav ul {
+    display: none;
+  }
+  nav img.menu {
+    display: block;
+    width: 25px;
+  }
+  section.quem-fez {
+    font-size: 0.8em;
+  }
+  section.quem-fez div.title-section {
+    padding: 30px 0;
+  }
+  section.quem-fez div.equipe div.cards div p {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  section.quem-fez {
+    font-size: 0.8em;
+    text-align: center;
+  }
+  section.quem-fez div.title-section {
+    width: 50%;
+    padding: 20px;
+  }
+  section.quem-fez div.title-section p {
+    margin: 0 auto;
+    padding: 0;
+  }
+  section.quem-fez div.title-section h2 {
+    margin: 0 auto;
+  }
+  section.quem-fez div.equipe {
+    width: 60%;
+    font-size: 13px;
+  }
+  section.quem-fez div.equipe div.cards div {
+    width: 50%;
+  }
+  section.quem-fez div.equipe div.cards div p {
+    padding-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

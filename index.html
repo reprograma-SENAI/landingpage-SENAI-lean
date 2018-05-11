@@ -10,8 +10,9 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/slick.css"/>
   <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css"/>
 
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/cardscarousel.css"/>
+  <!-- <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/cardscarousel.css"/> -->
+  <link rel="stylesheet" href="./assets/css/main.css"/>
 
 
 </head>
@@ -20,15 +21,15 @@
   <nav class="large">
     <img class="logo-nav" src="./assets/img/nav-logo.png" alt="logo-senai">
     <ul>
-      <li><a href="#header">Home<a></li>
-      <li><a href="#o-que-e">O que é</li>
-      <li><a href="#quemfez">Quem fez</li>
-      <li><a href="#comousar">Como usar</li>
+      <li class="link"><a href="#header">Home<a></li>
+      <li class="link"><a href="#o-que-e">O que é</li>
+      <li class="link"><a href="#quemfez">Quem fez</li>
+      <li class="link"><a href="./como-usar.html">Como usar</li>
       <li><a class="download" href="./assets/download/Canvas_final.pdf">Download</a></li> 
     </ul>
     
     <img class="menu" onclick="dropdown()" src="./assets/img/menu.png"  target="_blank" alt="">
-    <div class="dropdown">
+    <div class="dropdown dp-largeNav">
       <ul>
         <li class="dropdown-link"><a class="home" href="#header">Home<a></li>
         <li class="dropdown-link"><a class="oque-e" href="#o-que-e">O que é</li>
@@ -41,25 +42,21 @@
 
     <!-- Header -->
     <header>
+      <div id="header" class="container">  
 
-          <div class="container">  
-
-              <div>
-                  <img class="img1" src="assets/img/header1.png" alt="img header 1">
-              </div>              
-              
-              <div class="resumo">
-                <p>Senai Lean é um toolkit prático que
-                  ajudará á otimizar processos 
-                  e construir uma visão mais colaborativa no seu time.</p>
-                <a href="#" class="botao">Baixe Agora o Toolkit</a>
-                <img class="img2"src="assets/img/header2.png" alt="img header 2">
-              </div>                 
-          </div>
-             
-
-        </header>                
-         
+          <div>
+              <img class="img1" src="assets/img/header1.png" alt="img header 1">
+          </div>              
+          
+          <div class="resumo">
+            <p>Senai Lean é um toolkit prático que
+              ajudará á otimizar processos 
+              e construir uma visão mais colaborativa no seu time.</p>
+            <a href="#" class="botao">Baixe Agora o Toolkit</a>
+            <img class="img2"src="assets/img/header2.png" alt="img header 2">
+          </div>                 
+      </div>
+    </header>              
     <!-- Fim Header -->
 
   
@@ -152,10 +149,11 @@
     <img class="logo-footer" src="./assets/img/footer-logo.png" alt="logo senai footer">
     <p>&copy; 2018 Senai-SP Todos os direitos reservados</p>
   </footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
   <script src="./assets/js/script.js"></script>
   <script type="text/javascript" src="./assets/js/slick.min.js"></script>
   <script type="text/javascript" src="./assets/js/cardscarousel.js"></script>
+
 </body>
 </html>

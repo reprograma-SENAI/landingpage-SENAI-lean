@@ -1,0 +1,20 @@
+footer {
+  width: 100%;
+  background: #ffffff;
+  height: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .logo-footer {
+  max-width: 12%;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.25vw;
+}
+/*# sourceMappingURL=footer.css.map */

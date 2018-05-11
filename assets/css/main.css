@@ -1,7 +1,9 @@
-@import "nav.css";
-@import "footer.css";
 @import "style.css";
-@import "style-como-usar.css";
+@import "nav.css";
+@import "header.css";
+@import "section-quem-fez.css";
 @import "cardscarousel.css";
+@import "style-como-usar.css";
+@import "footer.css";
 
 

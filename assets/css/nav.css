@@ -10,6 +10,7 @@ nav {
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
   transition: .7s all;
   position: fixed;
+  top: 0;
 }
 
 nav img.logo-nav {
@@ -87,10 +88,12 @@ nav.small {
 
 .dropdown.dp-smallNav {
   top: 7vh;
+  transition: .7s all;
 }
 
 .dropdown.dp-largeNav {
   top: 13vh;
+  transition: .7s all;
 }
 
 @media (max-width: 768px) {
@@ -102,7 +105,7 @@ nav.small {
   }
   nav img.menu {
     display: block;
-    width: 25px;
-  }
+    width: 30px;
+   }
 }
 /*# sourceMappingURL=nav.css.map */

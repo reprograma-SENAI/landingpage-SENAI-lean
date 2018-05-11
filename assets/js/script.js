@@ -37,3 +37,7 @@ $(".menu").click(function(){
 	$(".dropdown").slideToggle();
 });
 
+$("a.dropdown-link").click(function(){
+    $(".dropdown").hide();
+});
+

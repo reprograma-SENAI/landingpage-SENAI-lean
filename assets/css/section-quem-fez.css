@@ -1,7 +1,7 @@
 section.quem-fez {
   background-image: url("../img/background-small.png");
   background-size: cover;
-  padding: 50px 0 100px;
+  padding: 30px 0 100px;
 }
 
 section.quem-fez div.title-section {
@@ -35,7 +35,7 @@ section.quem-fez div.equipe div.cards-equipe {
 
 section.quem-fez div.equipe div.cards-equipe div {
   width: 20%;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 section.quem-fez div.equipe div.cards-equipe div img {

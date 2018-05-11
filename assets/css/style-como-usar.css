@@ -27,19 +27,18 @@ body {
 p {
   margin: 0;
   padding: 0;
-  font-weight: bold;
 }
 
 h3 {
   color: #0066CC;
 }
 
-section.como-usar {
+section.tutorial {
   background-image: url("../img/background-large.png");
   background-size: cover;
 }
 
-section.como-usar div.fundo {
+section.tutorial div.fundo {
   width: 70%;
   margin: 0 auto;
   background-color: #ffffff;
@@ -47,20 +46,27 @@ section.como-usar div.fundo {
   padding-bottom: 30px;
 }
 
-section.como-usar div.fundo h2 {
+
+section.tutorial div.fundo h2 {
   padding: 30px 30px 0;
   margin: 0;
   font-size: 30px;
   color: #0066CC;
 }
 
-section.como-usar div.fundo div.passos {
+
+section.tutorial div.fundo div.passos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-section.como-usar div.fundo div.passos div.passo-a-passo {
+
+section.tutorial div.fundo div.passos div.passo-a-passo {
+  width: 45%;
+}
+
+section.tutorial div.fundo div.passos div.passo-a-passo img {
   width: 45%;
 }
 
@@ -69,13 +75,14 @@ section.como-usar div.fundo div.passos div.passo-a-passo img {
   border: 1px solid;
 }
 
-section.como-usar div.fundo div.passos div.passo-a-passo p {
+
+section.tutorial div.fundo div.passos div.passo-a-passo p {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
 }
 
-section.como-usar div.fundo div.passos hr.linha {
+section.tutorial div.fundo div.passos hr.linha {
   width: 95%;
   border-color: #0066CC;
   border-width: 1px;
@@ -89,7 +96,8 @@ section.como-usar div.fundo div.passos hr.linha {
   section.quem-fez div.title-section {
     padding: 30px 0;
   }
-  section.quem-fez div.equipe div.cards div p {
+
+  section.quem-fez div.equipe div.cards-equipe div p {
     padding-bottom: 20px;
   }
 }
@@ -114,10 +122,12 @@ section.como-usar div.fundo div.passos hr.linha {
     width: 60%;
     font-size: 13px;
   }
-  section.quem-fez div.equipe div.cards div {
+
+  section.quem-fez div.equipe div.cards-equipe div {
     width: 50%;
   }
-  section.quem-fez div.equipe div.cards div p {
+  section.quem-fez div.equipe div.cards-equipe div p {
+
     padding-bottom: 20px;
   }
 }

@@ -2,16 +2,35 @@ body{
   font-family: 'Rajdhani', sans-serif;
 }
 
-//__________________________________________
+
+section.o-que-eh{
+  padding-bottom: 18px;
+}
+
+section.como-usar{
+  padding-top: 150px;
+  padding-bottom: 100px; 
+}
+//_ _ _ _ 
 
 div.sobre{
-  position: relative;
-  max-width: 700px;
+  // position: relative;
+  max-width: 680px;
   text-align: left;
-  margin: 0 auto;
+  margin: 30px auto;
+     //mobile
+     @media (max-width: 320px) {
+             padding-left: 25px;
+         } 
 
     h2{
-      color: #003366;      
+      color: #003366;
+      font-size:30px;
+      //mobile
+     @media (max-width: 320px) {
+              padding-left: 12px;
+              margin-bottom: 10px;
+      }    
     }
 
       p{
@@ -24,9 +43,11 @@ div.sobre{
 
         //mobile
          @media (max-width: 320px) {
-                 font-size:13px;
-                 width:100%;
-                 padding-left: 10px;
+                  font-size: 13px;
+                  width: 220px;
+                  padding-left: 10px;
+                  margin-bottom: 15px;
+
              }     
 
            }     
@@ -39,13 +60,13 @@ div.sobre{
        //mobile
          @media (max-width: 320px) {
                  width:280px;
-
              } 
   }
 
+//--------- 
 
-//CARD carousel ____________________________
-// 
+
+//General CARD carousel ______ 
 
 div.cards {
   display:flex;
@@ -82,23 +103,29 @@ div.cards {
              background-color: #f0f7f7; 
              width: 100%;
              height: 285px;
+
                  @media (max-width: 320px) {
                        max-width:280px;
-                       max-height: 220px;
+                       max-height: 280px;
                        }
 
               }
 
         .pimg{
-          font-size:13px;
+          font-size:14px;
+          text-align:center;
           display:block;
           max-width: 240px;
-          padding-left:10px;
-        }
-    }
+          padding:10px 5px 0px 10px;          
+      }
+
+   }
 
 
 
+
+
+ // dots carousel
 
 // .slick-dots {
 //     bottom: -30px;  
@@ -130,7 +157,7 @@ div.cards {
   height: 30px;
   margin: 30px auto;
   display: block;
-  padding: 5px 5px;
+  padding: 5px 5px 30px; 
   background-color: #0066CC;
   color: #ffffff;
   text-align: center;
@@ -142,10 +169,11 @@ div.cards {
   //mobile
   @media (max-width: 320px) {
          
-          width: 30%;
-          margin: -15px auto;
-          max-height: 17px;
+          width: 50%;
+          margin: -10px auto;
+          max-height: 30px;
           font-size: 18px;
+          padding-bottom:20px;
     }  
 }
   

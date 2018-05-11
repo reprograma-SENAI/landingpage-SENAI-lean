@@ -11,6 +11,8 @@ nav{
     transition: .7s all;
     position: fixed;
     top: 0;
+
+
         
     img.logo-nav{
         width: 15%;
@@ -59,7 +61,7 @@ nav{
         display: none;
         position: absolute;
         text-align: center;
-        background: white;
+        background: #ffffff;
         width: 100%;
         font-size: 3vw;
        
@@ -90,6 +92,7 @@ nav.small{
 .dropdown.dp-smallNav{
     top: 7vh;
     transition: .7s all;
+
 }
 
 .dropdown.dp-largeNav{

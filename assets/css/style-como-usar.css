@@ -46,6 +46,7 @@ section.tutorial div.fundo {
   padding-bottom: 30px;
 }
 
+
 section.tutorial div.fundo h2 {
   padding: 30px 30px 0;
   margin: 0;
@@ -53,20 +54,27 @@ section.tutorial div.fundo h2 {
   color: #0066CC;
 }
 
+
 section.tutorial div.fundo div.passos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
+
 section.tutorial div.fundo div.passos div.passo-a-passo {
   width: 45%;
 }
 
 section.tutorial div.fundo div.passos div.passo-a-passo img {
+  width: 45%;
+}
+
+section.como-usar div.fundo div.passos div.passo-a-passo img {
   width: 100%;
   border: 1px solid;
 }
+
 
 section.tutorial div.fundo div.passos div.passo-a-passo p {
   font-size: 14px;
@@ -88,6 +96,7 @@ section.tutorial div.fundo div.passos hr.linha {
   section.quem-fez div.title-section {
     padding: 30px 0;
   }
+
   section.quem-fez div.equipe div.cards-equipe div p {
     padding-bottom: 20px;
   }
@@ -113,10 +122,12 @@ section.tutorial div.fundo div.passos hr.linha {
     width: 60%;
     font-size: 13px;
   }
+
   section.quem-fez div.equipe div.cards-equipe div {
     width: 50%;
   }
   section.quem-fez div.equipe div.cards-equipe div p {
+
     padding-bottom: 20px;
   }
 }

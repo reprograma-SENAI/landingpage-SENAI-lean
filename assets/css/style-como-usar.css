@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*CORES*********
+
+azul claro, a cor principal (logo + btns dowloads + Titulo Equipe) 
+>> #0066CC
+
+Azul escuro (Fonte Título h3) 
+>> #003366
+
+Cor dos textos em geral <p> 
+>> #333333
+
+Cor Marrom escuro quase preto da fonte rodapé:
+#222220
+*/
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  color: #333333;
+}
+
+/* Resets personalizados */
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: #0066CC;
+}
+
+section.tutorial {
+  background-image: url("../img/background-large.png");
+  background-size: cover;
+}
+
+section.tutorial div.fundo {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 30px;
+}
+
+section.tutorial div.fundo h2 {
+  padding: 30px 30px 0;
+  margin: 0;
+  font-size: 30px;
+  color: #0066CC;
+}
+
+section.tutorial div.fundo div.passos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section.tutorial div.fundo div.passos div.passo-a-passo {
+  width: 45%;
+}
+
+section.tutorial div.fundo div.passos div.passo-a-passo img {
+  width: 100%;
+  border: 1px solid;
+}
+
+section.tutorial div.fundo div.passos div.passo-a-passo p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+section.tutorial div.fundo div.passos hr.linha {
+  width: 95%;
+  border-color: #0066CC;
+  border-width: 1px;
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  section.quem-fez {
+    font-size: 0.9em;
+  }
+  section.quem-fez div.title-section {
+    padding: 30px 0;
+  }
+  section.quem-fez div.equipe div.cards-equipe div p {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  section.quem-fez {
+    font-size: 0.8em;
+    text-align: center;
+  }
+  section.quem-fez div.title-section {
+    width: 40%;
+    padding: 20px;
+  }
+  section.quem-fez div.title-section p {
+    margin: 0 auto;
+    padding: 0;
+  }
+  section.quem-fez div.title-section h2 {
+    margin: 0 auto;
+  }
+  section.quem-fez div.equipe {
+    width: 60%;
+    font-size: 13px;
+  }
+  section.quem-fez div.equipe div.cards-equipe div {
+    width: 50%;
+  }
+  section.quem-fez div.equipe div.cards-equipe div p {
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style-como-usar.css.map */

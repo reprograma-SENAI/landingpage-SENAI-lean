@@ -1,19 +1,18 @@
-// Header /////////////////////////////////////////////////////////////////////////
-header{
+// Section Toolkit /////////////////////////////////////////////////////////////////////////
+section.toolkit{
     background-image:url("../img/background-small.png");
     padding: 170px 0 75px;
-    background-size: cover;
 
     div.container-header{
         display: flex;
         align-items: center;
         justify-content: center;
         // padding: 40px;
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
 
         div.img-header {
-            width: 50%;
+            width: 45%;
 
             .img1{
                 width:100%     
@@ -21,7 +20,7 @@ header{
         }
 
         .resumo{
-            width: 50%;
+            width: 45%;
 
             p{
                 background-color: #eff4f7;
@@ -69,7 +68,7 @@ header{
 // Media Queries - 768///////////////////////////////////////////////////////////////////////
 @media (max-width: 768px){
    
-    header {
+    section.toolkit {
         div.container-header {
             div.resumo {
                 a.botao {
@@ -90,7 +89,7 @@ header{
 // Media Queries - 480///////////////////////////////////////////////////////////////////////
 @media  (max-width: 480px){
     
-    header {
+    section.toolkit {
         div.container-header {
             display: block;
 
@@ -122,4 +121,3 @@ header{
         }
     }
 }
-

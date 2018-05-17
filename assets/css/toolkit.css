@@ -1,30 +1,29 @@
-header {
+section.toolkit {
   background-image: url("../img/background-small.png");
   padding: 170px 0 75px;
-  background-size: cover;
 }
 
-header div.container-header {
+section.toolkit div.container-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
-header div.container-header div.img-header {
-  width: 50%;
+section.toolkit div.container-header div.img-header {
+  width: 45%;
 }
 
-header div.container-header div.img-header .img1 {
+section.toolkit div.container-header div.img-header .img1 {
   width: 100%;
 }
 
-header div.container-header .resumo {
-  width: 50%;
+section.toolkit div.container-header .resumo {
+  width: 45%;
 }
 
-header div.container-header .resumo p {
+section.toolkit div.container-header .resumo p {
   background-color: #eff4f7;
   color: #000000;
   font-weight: 500;
@@ -35,7 +34,7 @@ header div.container-header .resumo p {
   margin: 0;
 }
 
-header div.container-header .resumo a.botao {
+section.toolkit div.container-header .resumo a.botao {
   background-color: #0066CC;
   color: #ffffff;
   padding: 20px 40px;
@@ -50,45 +49,45 @@ header div.container-header .resumo a.botao {
   margin-left: 10px;
 }
 
-header .img2 {
+section.toolkit .img2 {
   width: 190px;
   float: right;
 }
 
 @media (max-width: 768px) {
-  header div.container-header div.resumo a.botao {
+  section.toolkit div.container-header div.resumo a.botao {
     padding: 10px 0px;
     width: 218px;
     font-size: 18px;
   }
-  header .img2 {
+  section.toolkit .img2 {
     width: 120px;
   }
 }
 
 @media (max-width: 480px) {
-  header div.container-header {
+  section.toolkit div.container-header {
     display: block;
   }
-  header div.container-header div.img-header {
+  section.toolkit div.container-header div.img-header {
     margin: 0 auto;
     width: 60%;
   }
-  header div.container-header div.resumo {
+  section.toolkit div.container-header div.resumo {
     margin: 0 auto;
     text-align: center;
     width: 95%;
   }
-  header div.container-header div.resumo p {
+  section.toolkit div.container-header div.resumo p {
     font-size: 17px;
     padding: 17px;
   }
-  header div.container-header div.resumo a.botao {
+  section.toolkit div.container-header div.resumo a.botao {
     margin: 0;
     width: 170px;
   }
-  header .img2 {
+  section.toolkit .img2 {
     width: 78px;
   }
 }
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=toolkit.css.map */

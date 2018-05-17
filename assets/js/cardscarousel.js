@@ -5,7 +5,7 @@ $(document).ready(function(){
      //  slidesToShow: 3,
       // slidesToScroll: 1,
       centerMode: false,
-      dots: true,
+      dots: false,
       autoplay: true,
       autoplaySpeed: 2000,
        cssEase: 'linear',
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 
           {
-            breakpoint: 330,
+            breakpoint: 400,
             settings: {
               arrows: false,
               centerMode: false,

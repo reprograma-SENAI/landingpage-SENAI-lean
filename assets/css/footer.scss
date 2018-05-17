@@ -1,7 +1,7 @@
 footer{
     width: 100%;
-   background: #ffffff;
-    height: 10vw;
+    background: #ffffff;
+    height: 13vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,5 +16,19 @@ footer{
         margin: 0;
         font-weight: bold;
         font-size: 1.25vw;
+    }
+}
+
+@media (max-width: 768px){
+    footer{
+        height: 20vw;
+        
+        .logo-footer{
+            max-width: 30%;
+        }
+        
+        p{
+            font-size: 2vw;
+        }
     }
 }

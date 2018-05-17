@@ -2,28 +2,26 @@ section.quem-fez {
   background-image: url("../img/background-small.png");
   background-size: cover;
   padding: 30px 0 100px;
+  font-weight: 600;
 }
 
 section.quem-fez div.title-section {
   width: 60%;
   margin: 0 auto;
-  padding: 40px 0;
-  font-size: 1.2em;
+  padding: 40px 20px;
+  font-size: 1.1em;
 }
 
 section.quem-fez div.title-section h2 {
-  margin: 0 0 0 30px;
   color: #0066CC;
-}
-
-section.quem-fez div.title-section p {
-  margin: 0 0 0 30px;
+  margin: 5px 0;
 }
 
 section.quem-fez div.equipe {
   box-shadow: -1px 2px 15px 2px rgba(0, 0, 0, 0.75);
   width: 60%;
   margin: 0 auto;
+  font-size: 0.9em;
   text-align: center;
 }
 

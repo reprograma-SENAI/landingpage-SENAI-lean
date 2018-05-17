@@ -11,6 +11,7 @@ nav{
     transition: .7s all;
     position: fixed;
     top: 0;
+    z-index: 10;
 
 
         
@@ -63,7 +64,7 @@ nav{
         text-align: center;
         background: #ffffff;
         width: 100%;
-        font-size: 3vw;
+        font-size: 5vw;
        
 
         ul {
@@ -90,7 +91,7 @@ nav.small{
 }
 
 .dropdown.dp-smallNav{
-    top: 7vh;
+    top: 9vh;
     transition: .7s all;
 
 }

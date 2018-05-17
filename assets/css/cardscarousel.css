@@ -4,6 +4,8 @@ body {
 
 section.o-que-eh {
   padding-bottom: 18px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 section.como-usar {
@@ -12,11 +14,11 @@ section.como-usar {
 }
 
 div.sobre {
-  max-width: 680px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 30px 0;
   text-align: left;
-  margin: 30px auto;
 }
-
 
 @media (max-width: 320px) {
   div.sobre {
@@ -29,14 +31,12 @@ div.sobre h2 {
   font-size: 30px;
 }
 
-
 @media (max-width: 320px) {
   div.sobre h2 {
     padding-left: 12px;
     margin-bottom: 10px;
   }
 }
-
 
 div.sobre p {
   font-size: 16px;
@@ -73,9 +73,7 @@ div.cards {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 750px;
   margin: 0 auto;
-  padding: 5px 20px 5px 20px;
 }
 
 @media (max-width: 320px) {

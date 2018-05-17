@@ -1,51 +1,10 @@
-/*CORES*********
-
-azul claro, a cor principal (logo + btns dowloads + Titulo Equipe) 
->> #0066CC
-
-Azul escuro (Fonte Título h3) 
->> #003366
-
-Cor dos textos em geral <p> 
->> #333333
-
-Cor Marrom escuro quase preto da fonte rodapé:
-#222220
-*/
-
-// Regras Gerais /////////////////////////////////////////////////////////////////
-html { 
-    font-size: 16px;
-    }
-
-body{
-    margin: 0;
-    font-family: 'Rajdhani', sans-serif;
-    color: #333333;
-}
-               
-/* Resets personalizados */
-p {
-    margin: 0;
-    padding: 0;
-}
-
-h3 {
-    //margin: 0;
-    color: #0066CC;
-}
-
-// /* Tornando as imagens responsivas */
-// img { max-width: 100%; }
-
-
-// Container ///////////////////////////////////////////////////////////////////////
 
 // Como Usar /////////////////////////////////////////////////////////////////////////
 
 section.tutorial {
     background-image: url("../img/background-large.png");
     background-size: cover;
+    padding-bottom: 70px;
     
     div.fundo {
             width: 70%;
@@ -78,6 +37,13 @@ section.tutorial {
                 width: 45%;
                 //display: inline-block;
                 //margin: 0 auto;
+                //mobile
+                @media (max-width: 480px) {
+                    width: 70%;
+                } 
+                    @media (max-width: 320px) {
+                        width: 80%;
+                    } 
 
                 img {
                     width: 100%;
@@ -108,65 +74,12 @@ section.tutorial {
 // Media Queries------------------------------------------------------------------------------
 @media  (max-width: 768px){
     
-    section.quem-fez {
-        font-size: 0.9em;
    
-        div.title-section {
-            padding: 30px 0;
-        }
-
-        div.equipe {  
-        
-
-            div.cards-equipe {
-                    
-                div {
-
-                    p {
-                        padding-bottom: 20px;
-                        
-                    }
-                }
-            }
-        }
-    }
 }
 
 @media  (max-width: 450px){
 
-    section.quem-fez {
-        font-size: 0.8em;
-        text-align: center;
-
-        div.title-section {
-            //padding: 30px 0;
-            width: 40%;
-            padding: 20px;
-
-            p {
-                margin: 0 auto;
-                padding: 0;
-            }
-
-            h2 {
-                margin: 0 auto;
-            }
-        }
-
-        div.equipe {  
-            width: 60%;
-            font-size: 13px; 
-
-            div.cards-equipe {
-                   
-                div {
-                    width: 50%;
-
-                    p {
-                        padding-bottom: 20px;
-                    }
-                }
-            }
-        }
-    }
+    
+       
+    
 }

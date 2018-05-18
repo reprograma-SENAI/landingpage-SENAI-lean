@@ -1,13 +1,14 @@
 section.toolkit {
   background-image: url("../img/background-small.png");
-  padding: 170px 0 75px;
+  background-size: cover;
+  padding: 130px 0 75px;
 }
 
 section.toolkit div.container-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -21,6 +22,10 @@ section.toolkit div.container-header div.img-header .img1 {
 
 section.toolkit div.container-header .resumo {
   width: 45%;
+}
+
+section.toolkit div.container-header .resumo .space {
+  height: 148px;
 }
 
 section.toolkit div.container-header .resumo p {
@@ -50,7 +55,7 @@ section.toolkit div.container-header .resumo a.botao {
 }
 
 section.toolkit .img2 {
-  width: 190px;
+  width: 150px;
   float: right;
 }
 

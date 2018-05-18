@@ -1,14 +1,15 @@
 // Section Toolkit /////////////////////////////////////////////////////////////////////////
 section.toolkit{
     background-image:url("../img/background-small.png");
-    padding: 170px 0 75px;
+    background-size: cover;
+    padding: 130px 0 75px;
 
     div.container-header{
         display: flex;
         align-items: center;
         justify-content: center;
         // padding: 40px;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
 
         div.img-header {
@@ -21,6 +22,9 @@ section.toolkit{
 
         .resumo{
             width: 45%;
+            .space{
+                height: 148px;
+            }
 
             p{
                 background-color: #eff4f7;
@@ -53,7 +57,7 @@ section.toolkit{
        
     .img2{
         // // height: auto;
-        width: 190px;
+        width: 150px;
         float: right;
         // display: block;
         // // height: 100px;

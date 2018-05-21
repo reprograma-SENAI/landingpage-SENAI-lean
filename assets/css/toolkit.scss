@@ -73,8 +73,13 @@ section.toolkit{
 @media (max-width: 768px){
    
     section.toolkit {
+        padding: 50px 0 75px;
         div.container-header {
             div.resumo {
+                .space{
+                    height: 30px;
+                }
+
                 a.botao {
                     padding: 10px 0px;
                     width: 218px;
@@ -84,7 +89,7 @@ section.toolkit{
         }
 
         .img2{
-            width: 120px;
+            width: 100px;
         }
     }
 }
@@ -99,7 +104,7 @@ section.toolkit{
 
             div.img-header {
                 margin: 0 auto;
-                width: 60%;
+                width: 80%;
             }
 
             div.resumo {
@@ -121,7 +126,7 @@ section.toolkit{
         }
 
         .img2{
-            width: 78px;
+            width: 60px;
         }
     }
 }

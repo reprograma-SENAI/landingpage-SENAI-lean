@@ -60,13 +60,19 @@ section.toolkit .img2 {
 }
 
 @media (max-width: 768px) {
+  section.toolkit {
+    padding: 50px 0 75px;
+  }
+  section.toolkit div.container-header div.resumo .space {
+    height: 30px;
+  }
   section.toolkit div.container-header div.resumo a.botao {
     padding: 10px 0px;
     width: 218px;
     font-size: 18px;
   }
   section.toolkit .img2 {
-    width: 120px;
+    width: 100px;
   }
 }
 
@@ -76,7 +82,7 @@ section.toolkit .img2 {
   }
   section.toolkit div.container-header div.img-header {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
   }
   section.toolkit div.container-header div.resumo {
     margin: 0 auto;
@@ -92,7 +98,7 @@ section.toolkit .img2 {
     width: 170px;
   }
   section.toolkit .img2 {
-    width: 78px;
+    width: 60px;
   }
 }
 /*# sourceMappingURL=toolkit.css.map */

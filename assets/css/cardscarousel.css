@@ -1,5 +1,5 @@
 body {
-  font-family: "Rajdhani", sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 section.o-que-eh {
@@ -20,18 +20,22 @@ div.sobre {
   padding: 30px 0;
   text-align: left;
 }
+
 div.sobre h2 {
   color: #003366;
   font-size: 30px;
 }
+
 @media (max-width: 320px) {
   div.sobre h2 {
     margin-bottom: 10px;
   }
 }
+
 div.sobre p {
   font-size: 16px;
 }
+
 @media (max-width: 760px) {
   div.sobre p {
     font-size: 13px;
@@ -47,32 +51,38 @@ div.cards {
   align-items: center;
   margin: 0 auto;
 }
+
 @media (max-width: 320px) {
   div.cards {
     max-width: 260px;
   }
 }
+
 div.cards .cardimg {
   max-width: 100%;
 }
+
 @media (max-width: 768px) {
   div.cards .cardimg {
     max-width: 100%;
     margin: 0 auto;
   }
 }
+
 div.cards .cardstyle {
   border: 1px solid #4a7093;
   background-color: #f0f7f7;
   width: 100%;
   height: 330px;
 }
+
 @media (max-width: 767px) {
   div.cards .cardstyle {
     max-width: 100%;
     max-height: 380px;
   }
 }
+
 div.cards .pimg {
   font-size: 14px;
   text-align: center;
@@ -95,6 +105,7 @@ div.cards .pimg {
   font-weight: 500;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
 }
+
 @media (max-width: 768px) {
   .comobtn {
     width: 50%;
@@ -103,3 +114,4 @@ div.cards .pimg {
     padding-bottom: 20px;
   }
 }
+/*# sourceMappingURL=cardscarousel.css.map */

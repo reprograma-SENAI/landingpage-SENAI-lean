@@ -14,40 +14,34 @@
     
 </head>
 
-<body>
-             
+<body> 
+    <nav class="large">
+        <img class="logo-nav" src="./assets/img/nav-logo.png" alt="logo-senai">
+        <ul>
+            <li class="link"><a href="./index.html">Home<a></li>
+            <li class="link"><a href="./index.html#o-que-e">O que é</li>
+            <li class="link"><a href="./index.html#quemfez">Quem fez</li>
+            <li class="link"><a href="./como-usar.html#como-usar">Como usar</li>
+            <li><a class="download" href="./assets/download/Canvas_final.pdf">Download</a></li> 
+        </ul>
         
-        <nav class="large">
-            <img class="logo-nav" src="./assets/img/nav-logo.png" alt="logo-senai">
+        <img class="menu" onclick="dropdown()" src="./assets/img/menu.png"  target="_blank" alt="">
+        <div class="dropdown dp-largeNav">
             <ul>
-                <li class="link"><a href="./index.html">Home<a></li>
-                <li class="link"><a href="./index.html#o-que-e">O que é</li>
-                <li class="link"><a href="./index.html#quemfez">Quem fez</li>
-                <li class="link"><a href="./como-usar.html#como-usar">Como usar</li>
-                <li><a class="download" href="./assets/download/Canvas_final.pdf">Download</a></li> 
+            <li class="dropdown-link"><a class="home" href="./index.html">Home<a></li>
+            <li class="dropdown-link"><a class="oque-e" href="./index.html#o-que-e">O que é</li>
+            <li class="dropdown-link"><a class="quemfez" href="./index.html#quemfez">Quem fez</li>
+            <li class="dropdown-link"><a class="comousar" href="./como-usar.html#como-usar">Como usar</li>
+            <li><a class="dropdown-download" href="./assets/download/Canvas_final.pdf">Download</a></li> 
             </ul>
-            
-            <img class="menu" onclick="dropdown()" src="./assets/img/menu.png"  target="_blank" alt="">
-            <div class="dropdown dp-largeNav">
-                <ul>
-                <li class="dropdown-link"><a class="home" href="./index.html">Home<a></li>
-                <li class="dropdown-link"><a class="oque-e" href="./index.html#o-que-e">O que é</li>
-                <li class="dropdown-link"><a class="quemfez" href="./index.html#quemfez">Quem fez</li>
-                <li class="dropdown-link"><a class="comousar" href="./como-usar.html#como-usar">Como usar</li>
-                <li><a class="dropdown-download" href="./assets/download/Canvas_final.pdf">Download</a></li> 
-                </ul>
-            </div>
-        </nav>
-
-
-<main>
-<!-- Início como-usar -->
+        </div>
+    </nav>
+    <main>
+    <!-- Início como-usar -->
         <section class="como-usar">
-
                 <div class="sobre">
                     <h2>  Como Usar? </h2>          
                 </div>
-
                 <div class="cards">
                     <div class="cardstyle">
                         <a> <img class="cardimg" src="assets/img/como-usar1.png" alt=""> </a>
@@ -69,23 +63,22 @@
                     <p> Aplique esse processo sempre que desejar construir uma visão colaborativa e eficiente, gerando melhorias em processos já estabelecidos. Importante destacar que o Senai Lean foca em problemas pequenos e rápidos, mas que acumulados em um processo tornam esse mesmo processo burocrático e maçante para as pessoas envolvidas. </p>
                 </div>
 
-                </section>
-<!-- Fim Como Usar -->
+            </section>
+    <!-- Fim Como Usar -->
 
-
-<!-- Section toolkit -->
-<section class="toolkit">
-    <div class="container-header">  
-        <div class="img-header">
-            <img class="img1" src="./assets/img/call-to-action1.png" alt="img header 1">
+    <!-- Section toolkit -->
+    <section class="toolkit">
+        <div class="container-header">  
+            <div class="img-header">
+                <img class="img1" src="./assets/img/call-to-action1.png" alt="img header 1">
+            </div>
+            <div class="resumo">
+                <div class="space"></div>
+                <a href="./assets/download/Canvas_final.pdf" target="_blank" class="botao">Baixe Agora o Toolkit</a>
+                <img class="img2" src="./assets/img/call-to-action2.png" alt="img header 2">
+            </div>                 
         </div>
-        <div class="resumo">
-            <div class="space"></div>
-            <a href="./assets/download/Canvas_final.pdf" target="_blank" class="botao">Baixe Agora o Toolkit</a>
-            <img class="img2" src="./assets/img/call-to-action2.png" alt="img header 2">
-        </div>                 
-    </div>
-</section>  
+    </section>  
     <!-- Section - Como usar -->
     <section class="tutorial">
             <div class="fundo">
@@ -150,20 +143,14 @@
                 </div>
             </div>
         </section>
-    </main>
-
-    
-
+    </main>  
     <footer>
         <img class="logo-footer" src="./assets/img/footer-logo.png" alt="logo senai footer">
         <p>&copy; 2018 Senai-SP Todos os direitos reservados</p>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
     <script type="text/javascript" src="./assets/js/slick.min.js"></script>
     <script type="text/javascript" src="./assets/js/cardscarousel.js"></script>
-    
 </body>
-
 </html>

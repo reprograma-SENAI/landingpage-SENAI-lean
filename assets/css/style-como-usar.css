@@ -3,6 +3,7 @@ section.tutorial {
   background-size: cover;
   padding-bottom: 70px;
 }
+
 section.tutorial div.fundo {
   width: 70%;
   margin: 0 auto;
@@ -10,26 +11,31 @@ section.tutorial div.fundo {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
   padding-bottom: 30px;
 }
+
 section.tutorial div.fundo h2 {
   padding: 30px 30px 0;
   margin: 0;
   font-size: 30px;
   color: #0066CC;
 }
+
 @media (max-width: 500px) {
   section.tutorial div.fundo h3 {
     padding-left: 30px;
   }
 }
+
 section.tutorial div.fundo div.passos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 section.tutorial div.fundo div.passos div.passo-a-passo {
   width: 45%;
   padding-top: 20px;
 }
+
 @media (max-width: 500px) {
   section.tutorial div.fundo div.passos div.passo-a-passo {
     max-width: 50%;
@@ -37,15 +43,18 @@ section.tutorial div.fundo div.passos div.passo-a-passo {
     max-height: 550px;
   }
 }
+
 section.tutorial div.fundo div.passos div.passo-a-passo img {
   width: 100%;
   border: 1px solid;
 }
+
 section.tutorial div.fundo div.passos div.passo-a-passo p {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
 }
+
 @media (max-width: 500px) {
   section.tutorial div.fundo div.passos div.passo-a-passo p {
     padding-bottom: 25px;
@@ -53,26 +62,32 @@ section.tutorial div.fundo div.passos div.passo-a-passo p {
     padding-left: 30px;
   }
 }
+
 section.tutorial div.fundo div.passos .pheight {
   height: 170px;
 }
+
 @media (max-width: 995px) {
   section.tutorial div.fundo div.passos .pheight {
     height: 250px;
   }
 }
+
 @media (max-width: 730px) {
   section.tutorial div.fundo div.passos .pheight {
     height: 300px;
   }
 }
+
 section.tutorial div.fundo div.passos hr.linha {
   width: 100%;
   border-color: #0066CC;
   border-width: 1px;
 }
+
 @media (max-width: 500px) {
   section.tutorial div.fundo div.passos hr.linha {
     display: none;
   }
 }
+/*# sourceMappingURL=style-como-usar.css.map */

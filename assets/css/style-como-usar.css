@@ -66,6 +66,11 @@ section.tutorial div.fundo div.passos .pheight {
     height: 300px;
   }
 }
+@media (max-width: 651px) {
+  section.tutorial div.fundo div.passos .pheight {
+    height: 400px;
+  }
+}
 section.tutorial div.fundo div.passos hr.linha {
   width: 100%;
   border-color: #0066CC;

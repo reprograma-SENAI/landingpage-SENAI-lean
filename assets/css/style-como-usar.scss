@@ -79,7 +79,10 @@ section.tutorial {
                      }
                     @media (max-width: 730px) {
                     height:300px;
-                     }                            
+                     } 
+                   @media (max-width: 651px) {
+                    height:400px;
+                     }                           
             }
 
             hr.linha {
